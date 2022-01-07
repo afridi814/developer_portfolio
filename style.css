@@ -1,12 +1,10 @@
-img{
-    height: 200px;
-    width: 200px;
-    position: absolute
-}
+
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 
 }
+
 h1{
     font-size: 50px;
 }
@@ -14,12 +12,15 @@ h1{
     color: yellow;
 }
 
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 100px;
+    margin-left: 2%;
+    
 }
 .half{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 1%;
 }
 .half img{
    
@@ -29,7 +30,13 @@ section{
     text-decoration: none;
     color: wheat;
     background-image: linear-gradient(orange,rgb(231, 31, 31));
-    padding: 10px;
-    border-radius: 5px;
-    font-weight: 700;
+    padding: 2px;
+    border-radius: 0px;
+    
+    
+    position: relative;
+}
+
+.top-banner{
+  
 }
